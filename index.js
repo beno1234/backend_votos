@@ -1,6 +1,7 @@
 const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -59,6 +60,6 @@ app.get("/contagem", (req, res) => {
 });
 
 // Inicia o servidor
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("Servidor iniciado em http://localhost:3000");
 });
