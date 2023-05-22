@@ -8,10 +8,10 @@ app.use(cors());
 
 // Configuração do banco de dados
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Ae@1254453",
-  database: "votacoes",
+  host: "vps-5528980.bmouseproductions.com",
+  user: "zomiescom_votos",
+  password: "~^@r;XFrSNM+",
+  database: "zomiescom_votacoes",
 });
 
 // Conexão com o banco de dados
